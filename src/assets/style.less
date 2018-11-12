@@ -1,0 +1,76 @@
+* {
+    font-family: "Microsoft YaHei";
+}
+body,html,#content{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.el-container{
+    height: 100%; 
+}
+ul{
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+    }
+} 
+// 头部
+.el-header {
+	background-color: #293744;
+	color: #333;
+	line-height: 56px;
+	font-size: 24px;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    .left{
+        width: 215px;
+        display: flex;
+        color: #fff;
+        flex-direction: row;
+        justify-content: space-between;
+        img{
+            width: 166.7px;
+            height: 27.5px;
+            margin-top: 16px;
+        }
+        .iconfont{
+            font-size: 30px;
+            cursor: pointer;
+            color: #8c96a7;
+        }
+    }
+    .right{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            align-self: center;
+            margin-right: 10px;
+        }
+        .name{
+            color: #fff;
+            font-size: 20px;
+            align-self: center;
+            margin-right: 20px;
+            color: #8c96a7;
+        }
+        .iconfont{
+            font-size: 30px;
+            cursor: pointer;
+            color: #8c96a7;
+            align-self: center;
+        }
+    }
+}
+ header .el-dropdown{
+	 height: 40px;
+ }
+ .el-dropdown-menu.el-popper{
+	 padding:2px 0;
+ }
