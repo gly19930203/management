@@ -19,15 +19,7 @@ Vue.use(Vuex)
 
 //global.APP_HOST = 'http://192.168.1.9:8020'//手机扫码功能，微信端路径
 //global.IMG_HOST = 'http://192.168.1.9:8006'
-<<<<<<< HEAD
-<<<<<<< HEAD
-axios.defaults.baseURL = 'http://192.168.2.8:8006/back';
-=======
 axios.defaults.baseURL = 'http://192.168.1.8:8006/back';
->>>>>>> glybranch
-=======
-axios.defaults.baseURL = 'http://192.168.2.8:8006/back';
->>>>>>> glybranch
 
  global.APP_HOST = 'http://www.edutage.com.cn/crm/marketing'
  global.IMG_HOST = 'http://crmapi.edutage.com.cn'
