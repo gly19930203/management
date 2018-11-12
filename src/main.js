@@ -19,7 +19,9 @@ Vue.use(Vuex)
 
 //global.APP_HOST = 'http://192.168.1.9:8020'//手机扫码功能，微信端路径
 //global.IMG_HOST = 'http://192.168.1.9:8006'
-;axios.defaults.baseURL = 'http://192.168.0.8:8006/back';APP_HOST = 'http://www.edutage.com.cn/crm/marketing'
+axios.defaults.baseURL = 'http://192.168.1.8:8006/back';
+
+ global.APP_HOST = 'http://www.edutage.com.cn/crm/marketing'
  global.IMG_HOST = 'http://crmapi.edutage.com.cn'
 // axios.defaults.baseURL = 'http://crmapi.edutage.com.cn/back';
 axios.defaults.headers.common['Authorization'] = window.localStorage.Authorization;
